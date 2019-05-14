@@ -1,11 +1,21 @@
+"""
+First we will be importing all the neccessary libraries to create the calculator.
+The following are the libraries and their use:
+    1. tkinter :- It is used to create user interface.
+    2. math :- to perform various mathematical operations and use various mathematical functions.
+    3. parser :- 
+    4. tkinter.messagebox :- It is a specific tkinter module that provide us with pre-build dailogbox used as alerts.
+"""
+
 from tkinter import *
 import math
 import parser
 import tkinter.messagebox
 
+# We will be creating a simple window using tkinter object 'Tk()' function.
 root = Tk()
-root.title("Scientific Calculator")
-root.configure(background="grey")
+root.title("Scientific Calculator") # Giving title to our window.
+root.configure(background="grey")  # Defining the background color for our window.
 root.resizable(width=False, height=False)
 root.geometry("480x568+0+0")
 
